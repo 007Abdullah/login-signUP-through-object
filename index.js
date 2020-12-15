@@ -1,7 +1,7 @@
 let curentuser = JSON.parse(localStorage.getItem("curentuser"));
 
 
-if ((curentuser) && (window.location.href === "file:///E:/MyWORK/Cover/Mobile-and-Web-Development-master/New%20Project%20Object/home.html")) {
+if (curentuser)  {
     document.getElementById("name").innerHTML = curentuser.name;
     document.getElementById("email").innerHTML = curentuser.email;
     document.getElementById("password").innerHTML = curentuser.password;
