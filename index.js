@@ -2,7 +2,7 @@ let curentuser = JSON.parse(localStorage.getItem("curentuser"));
 
 
 if (curentuser)  {
-    document.getElementById("name").innerHTML = curentuser.name;
+    document.getElementById("name").innerHTML = curentuser.nams;
     document.getElementById("email").innerHTML = curentuser.email;
     document.getElementById("password").innerHTML = curentuser.password;
     document.getElementById("gender").innerHTML = curentuser.gender;
